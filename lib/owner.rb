@@ -12,9 +12,13 @@ class Owner
     @@count += 1
   end
 
-  def all 
+  def all
     @@all
+  end
+
+  def reset_all
+    @@all.clear
   end 
-    
+
   # code goes here
 end

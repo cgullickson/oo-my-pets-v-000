@@ -8,12 +8,12 @@ class Owner
   def initialize (species)
     @species = species
     @name = name
-    @@all << species
+    @@all << self
     @@count += 1
   end
 
   def self.all
-    @@all
+    @@all 
   end
 
   def self.reset_all

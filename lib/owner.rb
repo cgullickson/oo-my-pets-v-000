@@ -12,7 +12,7 @@ class Owner
     @pets = {
       dogs: [],
       cats: [],
-      fish: [],
+      fishes: [],
     }
     @@all << self
     @@count += 1

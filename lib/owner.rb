@@ -10,9 +10,9 @@ class Owner
     @species = species
     @name = name
     @pets = {
-      dogs: []
-      cats: []
-      fish: []
+      dogs: [],
+      cats: [],
+      fish: [],
     }
     @@all << self
     @@count += 1

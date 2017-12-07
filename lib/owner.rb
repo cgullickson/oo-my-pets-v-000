@@ -24,5 +24,9 @@ class Owner
     @@all.clear
   end
 
+  def say_species
+    puts "I am a #{@species}"
+  end
+
   # code goes here
 end

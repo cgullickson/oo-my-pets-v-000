@@ -11,5 +11,10 @@ class Owner
     @@all << name
     @@count += 1
   end
+
+  def all 
+    @@all
+  end 
+    
   # code goes here
 end

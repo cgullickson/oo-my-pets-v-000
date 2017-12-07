@@ -64,6 +64,9 @@ class Owner
   end
 
   def sell_pets
+    self.pets[:fishes].clear
+    self.pets[:dogs].clear
+    self.pets[:cats].clear
 
   end
 

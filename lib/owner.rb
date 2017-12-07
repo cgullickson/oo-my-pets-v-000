@@ -40,7 +40,6 @@ class Owner
 
   def buy_fish(name)
     Fish.new(name)
-    binding.pry
   end
 
   def buy_cat
